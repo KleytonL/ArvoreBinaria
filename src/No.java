@@ -32,11 +32,3 @@ public class No {
         this.direito = direito;
     }
 }
-
-//    int key;
-//    No left, right, parent;
-//
-//    public No(int key) {
-//        this.key = key;
-//        this.left = this.right = this.parent = null;
-

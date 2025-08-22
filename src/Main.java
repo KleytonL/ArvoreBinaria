@@ -14,6 +14,7 @@ public class Main {
             System.out.println("3 - Calcula altura");
             System.out.println("4 - Calcula nível");
             System.out.println("5 - Calcula grau");
+            System.out.println("6 - Calcula grau máximo");
             System.out.println("0 - Sair");
             System.out.println("Escolha uma opção:");
             opt = sc.nextInt();
@@ -36,7 +37,12 @@ public class Main {
                     System.out.println("Nível: " + arvore.calculaNivel(arvore.getRaiz()));
                     break;
                 case 5:
-
+                    System.out.println("Escolha um valor:");
+                    arvore.grauDoNo(arvore.getRaiz());
+                    break;
+                case 6:
+                    System.out.println("Calculo de grau máximo: ");
+                    arvore.grauMaximo(arvore.getRaiz());
                     break;
                 case 0:
                     System.out.println("Saindo...");
